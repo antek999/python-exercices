@@ -1,3 +1,4 @@
+#lotto simulation
 
 import random
 
@@ -28,7 +29,7 @@ while True:
     f=random.randint(1, 50)
     if f!=a and f!=b and f!=c and f!=d and f!=e:
         break
- 
+
 print(a, b ,c ,d ,e ,f)
 
 while True:
